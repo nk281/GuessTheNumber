@@ -8,6 +8,10 @@ document.getElementById("guessButton").addEventListener("click", function() {
     guessCheck();
 });
 
+document.getElementById("restartButton").addEventListener("click", function() {
+    location.reload();
+});
+
 function guessCheck() {
     while(userGuess !== randomNumber) {
         if(userGuess < randomNumber) {
