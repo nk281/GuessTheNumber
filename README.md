@@ -45,6 +45,6 @@ number-guesser/
 ## 👨‍💻 Author
 
 **Navneet Kumar**  
-GitHub: [@your-username](https://github.com/your-username)
+GitHub: [[nk281](https://github.com/nk281)]
 
 > ⭐ If you found this project helpful, please give it a star on GitHub!
