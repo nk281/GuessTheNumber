@@ -1,4 +1,3 @@
-/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
@@ -23,7 +22,6 @@ body{
     overflow:hidden;
 }
 
-/* Floating background circles */
 
 body::before,
 body::after{
@@ -49,7 +47,6 @@ body::after{
     right:-120px;
 }
 
-/* Main Card */
 
 .game-container{
     width:90%;
@@ -71,7 +68,6 @@ body::after{
     animation:fadeIn 1s ease;
 }
 
-/* Heading */
 
 h1{
     font-size:2rem;
@@ -90,7 +86,6 @@ h1{
     font-weight:600;
 }
 
-/* Input */
 
 #guessInput{
     width:100%;
@@ -119,9 +114,9 @@ h1{
         0 0 20px rgba(255,255,255,0.3);
 }
 
-/* Button */
 
-#guessButton{
+#guessButton,
+#restartButton{
     width:100%;
     padding:14px;
 
@@ -143,17 +138,27 @@ h1{
     transition:0.3s;
 }
 
-#guessButton:hover{
+#restartButton{
+    margin-top:12px;
+    background:linear-gradient(
+        135deg,
+        #10b981,
+        #2563eb
+    );
+}
+
+#guessButton:hover,
+#restartButton:hover{
     transform:translateY(-3px);
     box-shadow:
         0 10px 25px rgba(239,68,68,0.4);
 }
 
-#guessButton:active{
+#guessButton:active,
+#restartButton:active{
     transform:scale(0.97);
 }
 
-/* Feedback */
 
 #feedback{
     margin-top:25px;
@@ -165,7 +170,6 @@ h1{
     animation:pulse 2s infinite;
 }
 
-/* Animations */
 
 @keyframes fadeIn{
     from{
@@ -190,7 +194,6 @@ h1{
     }
 }
 
-/* Responsive */
 
 @media(max-width:500px){
 
