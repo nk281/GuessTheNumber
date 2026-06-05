@@ -11,6 +11,7 @@ A fun and interactive browser-based game where the player tries to guess a rando
 2. Enter your guess in the input field and click **"Guess"**.
 3. The game will tell you if your guess is **too high**, **too low**, or **correct**.
 4. Keep guessing until you find the number!
+5. Click "Restart" to play again.
 
 ---
 
@@ -19,6 +20,7 @@ A fun and interactive browser-based game where the player tries to guess a rando
 - 🎲 Random number generated on every new game
 - 📢 Instant feedback — "Too High", "Too Low", or "Correct!"
 - 🏆 Win/Loss messages at the end of each game
+- 🔄 Restart button to play again without refreshing the page
 
 ---
 
